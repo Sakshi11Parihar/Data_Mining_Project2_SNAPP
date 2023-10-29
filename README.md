@@ -20,9 +20,9 @@ In the GitHub repository, you will discover code and comprehensive documentation
 # Table of Contents
 
 ## [ 1. Dataset description ](#1-dataset-description)
-## [ 2. Data Preprocessing and Data Visualisation - CP_2_EDA.ipynb ](#2.-data-preprocessing-and-data-visualisation---cp_2_eda.ipynb)
-## [ 3. Machine Learning Pipeline ](#4-machine-learning-pipeline)
-## [ 4. Conclusion ](#5-conclusion)
+## [ 2. Data Preprocessing and Data Visualisation - CP_2_EDA.ipynb ](#2.-data-preprocessing-and-data-visualisation)
+## [ 3. Machine Learning Pipeline ](#3-machine-learning-pipeline)
+## [ 4. Conclusion ](#4-conclusion)
 
 ## 1. Dataset description
 
