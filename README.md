@@ -21,8 +21,8 @@ In the GitHub repository, you will discover code and comprehensive documentation
 
 ## [ 1. Dataset description ](#1-dataset-description)
 ## [ 2. Data Preprocessing and Data Visualisation - CP_2_EDA.ipynb ](#2.-data-preprocessing-and-data-visualisation---cp_2_eda.ipynb)
-## [ 4. Machine Learning Pipeline ](#4-machine-learning-pipeline)
-## [ 5. Conclusion ](#5-conclusion)
+## [ 3. Machine Learning Pipeline ](#4-machine-learning-pipeline)
+## [ 4. Conclusion ](#5-conclusion)
 
 ## 1. Dataset description
 
@@ -93,10 +93,10 @@ During the preprocessing stage, we initiated the dataset by loading it and condu
 These preprocessing steps were carefully executed to prepare the dataset for in-depth analysis, guaranteeing its cleanliness and completeness, and facilitating subsequent exploratory and modeling tasks.
 
 
-## 4. Machine Learning Pipeline
+## 3. Machine Learning Pipeline
 ![ML Pipeline_Chart](Flowchart/ML_pipeline.png)
 
-## 5. Conclusion
+## 4. Conclusion
 
 ![Tabular View](ML_result/Table.png)
 -Logistic Regression:Precision, recall, F1 score, and accuracy values are relatively lower, indicating that the model's performance may not be ideal for the given dataset.
