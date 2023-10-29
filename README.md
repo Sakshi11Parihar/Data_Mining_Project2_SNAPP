@@ -81,3 +81,23 @@ Atrributes :-
 
 ## 2. Data Preprocessing - EDA_dataset.ipynb
 
+During the preprocessing stage, we initiated the dataset by loading it and conducted a comprehensive assessment to identify missing values, both in the form of 'NA' and 'NaN'. We systematically addressed these missing values in the following ways:
+
+-Feature Removal: Features with excessive missing values, surpassing the 75% threshold, were prudently eliminated from the dataset. This approach was adopted to maintain data quality and streamline subsequent analysis, acknowledging that these columns lacked the data density required for meaningful insights.
+
+-Handling the 'desc' Column: Recognizing that the 'desc' column likely contained textual data, which wasn't within the scope of our analysis, we opted to remove this column. Text data often necessitates specialized processing, which was beyond the current project's focus.
+
+-Imputing Numeric Values: For certain numeric columns, missing values were imputed using either the mean or median values. This practice ensured the integrity of the dataset by substituting missing entries with representative central tendencies.
+
+-Categorical Data Treatment: Categorical columns posed unique challenges. To preserve the categorical nature of the data while addressing missing values, we assigned designated categorical labels or names to replace these gaps.
+
+These preprocessing steps were carefully executed to prepare the dataset for in-depth analysis, guaranteeing its cleanliness and completeness, and facilitating subsequent exploratory and modeling tasks.
+
+## 3. Data Visualisation - EDA_category.ipynb
+
+## 5. Machine Learning Pipeline
+![ML Pipeline_Chart](link)
+
+## 6. Conclusion
+
+
