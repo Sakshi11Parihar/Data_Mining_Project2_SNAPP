@@ -80,6 +80,8 @@ Atrributes :-
 
 ## 2. Data Preprocessing and Data Visualisation - EDA_category.ipynb - EDA_dataset.ipynb
 
+# Data Preprocessing
+
 During the preprocessing stage, we initiated the dataset by loading it and conducted a comprehensive assessment to identify missing values, both in the form of 'NA' and 'NaN'. We systematically addressed these missing values in the following ways:
 
 -Feature Removal: Features with excessive missing values, surpassing the 75% threshold, were prudently eliminated from the dataset. This approach was adopted to maintain data quality and streamline subsequent analysis, acknowledging that these columns lacked the data density required for meaningful insights.
@@ -91,6 +93,22 @@ During the preprocessing stage, we initiated the dataset by loading it and condu
 -Categorical Data Treatment: Categorical columns posed unique challenges. To preserve the categorical nature of the data while addressing missing values, we assigned designated categorical labels or names to replace these gaps.
 
 These preprocessing steps were carefully executed to prepare the dataset for in-depth analysis, guaranteeing its cleanliness and completeness, and facilitating subsequent exploratory and modeling tasks.
+
+# Data Visualization
+
+-During our thorough exploratory data analysis (EDA), we conducted an in-depth examination of the factors influencing our target variable, the default indicator. This comprehensive analysis yielded valuable insights that are pivotal in understanding credit risk.
+
+-First, we observed a significant impact of loan term on default rates. Loans with a 5-year term exhibited a notably higher default rate compared to those with a 3-year term, indicating a relationship between extended loan durations and increased default risk.
+
+-Second, as the loan grade increased, there was a corresponding rise in the default rate. This underscores the strong association between loan grade and default risk, with higher-grade loans posing a heightened risk of default.
+
+-In terms of home ownership, our analysis revealed that borrowers who own or rent homes had a lower default rate compared to those with no home ownership. This highlights the potential influence of stable housing arrangements on reducing default risk.
+
+-Additionally, debt-to-income ratio (DTI) played a pivotal role. Borrowers with DTIs in the 20-35 range exhibited a higher likelihood of default, emphasizing the significance of managing debt relative to income.
+
+-Finally, we found a positive correlation between higher revolving utilization (reliance on credit) and an elevated likelihood of default. This underscores the importance of responsible credit management, as borrowers who heavily rely on their available credit lines are at a heightened risk of default.
+
+-These insights, substantiated by compelling visualizations in our EDA, provide actionable guidance for credit risk assessment, lending decisions, and the development of effective risk mitigation strategies. They equip us with the knowledge to make informed, data-driven decisions to minimize the risk of loan defaults.
 
 
 ## 3. Machine Learning Pipeline
