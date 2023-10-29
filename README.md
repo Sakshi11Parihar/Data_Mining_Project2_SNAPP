@@ -100,7 +100,18 @@ These preprocessing steps were carefully executed to prepare the dataset for in-
 
 ## 5. Conclusion
 
-![Tabular View](Flowchart/Table.png)
+![Tabular View](ML_result/Table.png)
+-Logistic Regression:Precision, recall, F1 score, and accuracy values are relatively lower, indicating that the model's performance may not be ideal for the given dataset.
+
+-Decision Tree Classifier, Random Forest Classifier, XGBoost Classifier, and AdaBoost Classifier
+All of these tree-based models have perfect precision, recall, F1 score, and accuracy on the training, testing, and validation datasets. This might be a sign of overfitting, especially if the Decision Tree model has a high max depth.
+Further tuning or cross-validation is recommended to determine if the models generalize well.
+
+-Multinomial Naive Bayes:
+This model shows decent but not perfect precision, recall, F1 score, and accuracy values.
+It performs better than Logistic Regression, but there is still room for improvement.
+
+-Overall, it's important to consider overfitting, data preprocessing, and hyperparameter tuning when interpreting these results. Further evaluation, such as cross-validation, can help ensure that the models perform well on unseen data.
 
 
 
