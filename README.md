@@ -78,3 +78,6 @@ Atrributes :-
 'tot_cur_bal' : Total current balance of all accounts.
 
 'default_ind' : The target variable indicating loan default (1 for default, 0 for non-default).
+
+## 2. Data Preprocessing - EDA_dataset.ipynb
+
