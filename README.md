@@ -20,7 +20,7 @@ In the GitHub repository, you will discover code and comprehensive documentation
 # Table of Contents
 
 ## [ 1. Dataset description ](#1-dataset-description)
-## [ 2. Data Preprocessing and Data Visualisation ](#2.-data-preprocessing-and-data-visualisation)
+## [ 2. Data Preprocessing and Data Visualisation ](#2-data-preprocessing-and-data-visualisation)
 ## [ 3. Machine Learning Pipeline ](#3-machine-learning-pipeline)
 ## [ 4. Conclusion ](#4-conclusion)
 
