@@ -20,8 +20,7 @@ In the GitHub repository, you will discover code and comprehensive documentation
 # Table of Contents
 
 ## [ 1. Dataset description ](#1-dataset-description)
-## [ 2. Data Preprocessing ](#2-data-preprocessing---eda_categoryipynb)
-## [ 3. Data Visualisation - EDA_category.ipynb ](#3-data-visualisation---eda_categoryipynb)
+## [ 2. Data Preprocessing and Data Visualisation - CP_2_EDA.ipynb ](#2.-data-preprocessing-and-data-visualisation---cp_2_eda.ipynb)
 ## [ 4. Machine Learning Pipeline ](#4-machine-learning-pipeline)
 ## [ 5. Conclusion ](#5-conclusion)
 
@@ -79,7 +78,7 @@ Atrributes :-
 
 'default_ind' : The target variable indicating loan default (1 for default, 0 for non-default).
 
-## 2. Data Preprocessing - EDA_dataset.ipynb
+## 2. Data Preprocessing and Data Visualisation - EDA_category.ipynb - EDA_dataset.ipynb
 
 During the preprocessing stage, we initiated the dataset by loading it and conducted a comprehensive assessment to identify missing values, both in the form of 'NA' and 'NaN'. We systematically addressed these missing values in the following ways:
 
@@ -93,7 +92,6 @@ During the preprocessing stage, we initiated the dataset by loading it and condu
 
 These preprocessing steps were carefully executed to prepare the dataset for in-depth analysis, guaranteeing its cleanliness and completeness, and facilitating subsequent exploratory and modeling tasks.
 
-## 3. Data Visualisation - EDA_category.ipynb
 
 ## 4. Machine Learning Pipeline
 ![ML Pipeline_Chart](Flowchart/ML_pipeline.png)
