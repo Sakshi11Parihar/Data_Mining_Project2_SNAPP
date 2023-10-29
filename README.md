@@ -96,6 +96,51 @@ These preprocessing steps were carefully executed to prepare the dataset for in-
 ## 3. Machine Learning Pipeline
 ![ML Pipeline_Chart](Flowchart/ML_pipeline.png)
 
+Models:
+
+Logistic Regression:
+Logistic Regression is a linear model used for binary classification problems.
+Key Parameters:
+penalty: Regularization term ('l1', 'l2', or None).
+C: Inverse of regularization strength.
+solver: Algorithm to use for optimization.
+max_iter: Maximum number of iterations.
+Decision Tree Classifier:
+
+Decision Trees are non-linear models that create a tree structure for classification problems.
+Key Parameters:
+criterion: The function used to measure the quality of a split ('gini' or 'entropy').
+max_depth: The maximum depth of the tree.
+min_samples_split: The minimum number of samples required to split an internal node.
+min_samples_leaf: The minimum number of samples required to be at a leaf node.
+Random Forest Classifier:
+
+Random Forest is an ensemble of Decision Trees.
+Key Parameters:
+n_estimators: The number of trees in the forest.
+max_depth: The maximum depth of the tree.
+min_samples_split: The minimum number of samples required to split an internal node.
+min_samples_leaf: The minimum number of samples required to be at a leaf node.
+
+Multinomial Naive Bayes:
+Naive Bayes is a probabilistic model based on Bayes' theorem. Multinomial Naive Bayes is suitable for text classification.
+Key Parameters:
+alpha: Laplace smoothing parameter.
+fit_prior: Whether to learn class prior probabilities from the data.
+
+XGBoost Classifier:
+XGBoost is a gradient boosting algorithm that can handle various types of data.
+Key Parameters:
+n_estimators: The number of boosting rounds.
+learning_rate: Step size shrinkage to prevent overfitting.
+max_depth: Maximum depth of the decision tree.
+
+AdaBoost Classifier:
+AdaBoost is an ensemble method that focuses on improving the classification of weak learners.
+Key Parameters:
+n_estimators: The number of weak learners to train.
+learning_rate: The contribution of each weak learner.
+
 ## 4. Conclusion
 
 ![Tabular View](ML_result/Table.png)
