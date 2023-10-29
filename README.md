@@ -80,7 +80,7 @@ Atrributes :-
 
 ## 2. Data Preprocessing and Data Visualisation 
 
-# Data Preprocessing
+### Data Preprocessing
 
 During the preprocessing stage, we initiated the dataset by loading it and conducted a comprehensive assessment to identify missing values, both in the form of 'NA' and 'NaN'. We systematically addressed these missing values in the following ways:
 
@@ -94,7 +94,7 @@ During the preprocessing stage, we initiated the dataset by loading it and condu
 
 These preprocessing steps were carefully executed to prepare the dataset for in-depth analysis, guaranteeing its cleanliness and completeness, and facilitating subsequent exploratory and modeling tasks.
 
-# Data Visualization
+### Data Visualization
 
 -During our thorough exploratory data analysis (EDA), we conducted an in-depth examination of the factors influencing our target variable, the default indicator. This comprehensive analysis yielded valuable insights that are pivotal in understanding credit risk.
 
