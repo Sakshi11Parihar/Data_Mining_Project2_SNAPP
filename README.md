@@ -100,4 +100,7 @@ These preprocessing steps were carefully executed to prepare the dataset for in-
 
 ## 5. Conclusion
 
+![Tabular View](Flowchart/Table.png)
+
+
 
