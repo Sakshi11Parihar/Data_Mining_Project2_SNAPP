@@ -95,9 +95,9 @@ These preprocessing steps were carefully executed to prepare the dataset for in-
 
 ## 3. Data Visualisation - EDA_category.ipynb
 
-## 5. Machine Learning Pipeline
+## 4. Machine Learning Pipeline
 ![ML Pipeline_Chart](Flowchart/ML_pipeline.png)
 
-## 6. Conclusion
+## 5. Conclusion
 
 
