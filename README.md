@@ -15,7 +15,7 @@ In the GitHub repository, you will discover code and comprehensive documentation
 ### - Nandini Parekh - 202001455
 
 # Project Pipeline
-![Final_Chart](LINK)
+![Final_Chart](Flowchart/Final_Flowchart.png)
 
 # Table of Contents
 
