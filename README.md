@@ -78,7 +78,7 @@ Atrributes :-
 
 'default_ind' : The target variable indicating loan default (1 for default, 0 for non-default).
 
-## 2. Data Preprocessing and Data Visualisation - EDA_category.ipynb - EDA_dataset.ipynb
+## 2. Data Preprocessing and Data Visualisation 
 
 # Data Preprocessing
 
