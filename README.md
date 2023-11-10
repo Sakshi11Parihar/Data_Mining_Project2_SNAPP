@@ -174,5 +174,5 @@ It performs better than Logistic Regression, but there is still room for improve
 
 -Overall, it's important to consider overfitting, data preprocessing, and hyperparameter tuning when interpreting these results. Further evaluation, such as cross-validation, can help ensure that the models perform well on unseen data.
 
-![Tabular View](ML_result/result.png)
+
 
